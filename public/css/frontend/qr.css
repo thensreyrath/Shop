@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+body {
+    font-family: 'Urbanist', 'Nunitos Sans' !important;
+}
+/* .container {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 0px;
+} */
+.qr-card {
+	/* position: relative; */
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border-radius: 15px;
+	width: 225px;
+	left: -35px;
+	box-shadow: 0 0 16px rgb(0 0 0 / 10%);
+}
+.qr-card-header {
+	padding: 5px;
+	margin-bottom: 0;
+	background-color: #e1232e;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.qr-card-header:after {
+    content: "";
+    border-style: solid;
+    border-width: 20px 20px 20px 0;
+    border-color: transparent #e1232e transparent transparent;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+.qr-card-header img {
+    width: 70px;
+    object-fit: cover;
+}
+.qr-card-price {
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.16);
+    padding: 10px 10px 10px 25px;
+}
+.qr-card-price p {
+    line-height: 10px;
+}
+.qr-name {
+    margin-top: 15px;
+    font-size: 14px;
+}
+.qr-price {
+    margin-top: 15px;
+    font-size: 24px;
+    display: flex;
+}
+.qr-card-body {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.qr-currency{
+    font-size: 14px;
+    margin-left: 5px;
+}
+.payment .title {
+    font-weight: bold;
+    color: var(--pink);
+}
+.payment .hr{
+    padding: 15px;
+    /* border-bottom: 1px solid; */
+    width: 60%;
+}
