@@ -1,1 +1,2 @@
-# lara-shop-v2
+# Shop
+e-commerce
